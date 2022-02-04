@@ -10,7 +10,7 @@ function JobCard({
 
   return (
     <div className='card'>
-      <Link to={`/jobs/${jobId}`}>
+      <Link to={`/jobs/${jobId}/`}>
         <p className='card-header'>{position}</p>
         <p className='card-body'>{company}<br />{location}</p>
         <p className='card-salary'>£{salary}</p>
