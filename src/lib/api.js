@@ -1,13 +1,12 @@
 import axios from 'axios'
 import { getToken } from '../lib/auth'
+import { baseUrl } from '../config'
 
 export function headers() {
   return {
     headers: { Authorization: `Bearer ${getToken()}` },
   }
 }
-
-const baseUrl = 'http://localhost:3000'
 
 export function getAllJobs() {
   return axios.get(`${baseUrl}/api/jobs/`)
