@@ -9,11 +9,11 @@ export function headers() {
 }
 
 export function getAllJobs() {
-  return axios.get(`${baseUrl}/api/jobs/`)
+  return axios.get(`${baseUrl}/jobs/`)
 }
 
 export function getSingleJob(jobId) {
-  return axios.get(`${baseUrl}/api/jobs/${jobId}`)
+  return axios.get(`${baseUrl}/jobs/${jobId}`)
 }
 
 // export function createJob(formData) {
