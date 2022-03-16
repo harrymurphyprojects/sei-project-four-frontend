@@ -56,9 +56,9 @@ The Stretch Goal ideas:
 * Email verification.
 * Contact email sent to companies.
 
-<img src="https://i.imgur.com/gHFmUF3.png" width="600" height="600" />
+<img src="https://i.imgur.com/gHFmUF3.png" width="700" height="600" />
 
-<img src="https://i.imgur.com/93g8VwI.png" width="600" height="400" />
+<img src="https://i.imgur.com/93g8VwI.png" width="700" height="400" />
 
 ## Technologies Used
 
@@ -112,7 +112,7 @@ The homepage for this project is very important, when on indeed website they pul
 
 On the indeed website, if you’re interested in a job, clicking on it will bring you to a page with more information. This was my second task in the front end, after getting the index page operational. Unlike the JobCard used in the index page, the show page accessed all the keys in the Schema. As long as the Axios requests are correct, I can use dot notation `{job.location}` . I was able to access each key in the back end and display it in the front end. 
 
-<img src="https://i.imgur.com/fB2cdXw.png" width="600" height="200" />
+<img src="https://i.imgur.com/fB2cdXw.png" width="600" height="600" />
 
 #### Styling 
 
