@@ -90,7 +90,7 @@ To ensure that the Applications match the Job listing, I used a field called “
 
 In the next step, I created an authentication class that checks whether the request has a JWT token. If the Header doesn’t match the user will receive Permission Denied, if the token is invalid they will receive an Invalid Token Error. This is tested in Insomnia. 
 
-<img src="https://i.imgur.com/5bWWkVJ.png" width="600" height="200" />
+<img src="https://i.imgur.com/5bWWkVJ.png" width="600" height="600" />
 
 ## The Build Front End
 
@@ -100,26 +100,26 @@ In the next step, I created an authentication class that checks whether the requ
 
 This is the API page where the get requests were refactored too. “getAllJobs” is used on the homepage to access the jobs listing, similarly, “getSingleJob” is used for an individual page for each job. The main difference between these requests is the URL, the “getSingleJob” uses the character “/id” the URL whereas “getAllJobs” uses “/all”. This was all written in the RESTful API documentation.
 
-<img src="https://i.imgur.com/BGbXObF.png" width="600" height="200" />
+<img src="https://i.imgur.com/HjzHbmf.png" width="600" height="600" />
 
 #### Home Page
 
 The homepage for this project is very important, when on indeed website they pull a lot of the information onto the home page including indexing all the job listings. I created JobCard’s so that when the information is pulled onto the homepage it arrives in a neat format that was easier to style. Also by formatting them into JobCards, it makes the busy Home.js page a bit more readable. Having the class name of “home-page” allows me to use .home–page in SASS and add styling. 
 
-<img src="https://i.imgur.com/BGbXObF.png" width="600" height="200" />
+<img src="https://i.imgur.com/GXfmLRl.png" width="600" height="600" />
 
 #### Show Page
 
 On the indeed website, if you’re interested in a job, clicking on it will bring you to a page with more information. This was my second task in the front end, after getting the index page operational. Unlike the JobCard used in the index page, the show page accessed all the keys in the Schema. As long as the Axios requests are correct, I can use dot notation `{job.location}` . I was able to access each key in the back end and display it in the front end. 
 
-<img src="https://i.imgur.com/BGbXObF.png" width="600" height="200" />
+<img src="https://i.imgur.com/fB2cdXw.png" width="600" height="200" />
 
 #### Styling 
 
 Not using a styling framework like Bulma or Bootstrap was hard in this project as I was pushed for time. However, I persevered with SASS and tried to get close to the styling on the Indeed website. Below is my header for the Homepage vs the header on the homepage March 2022. There have been some minor changes but it's quite close. In further improvements, some vertical padding between the search boxes and the Navbar is required. Another improvement would be if the Find Jobs, Company Reviews and Explore Salaries were in separate inline `<div>`. From there it would be easier to create the left section and right section you see in the Indeed.com header. 
 
-<img src="https://i.imgur.com/BGbXObF.png" width="600" height="200" />
-<img src="https://i.imgur.com/BGbXObF.png" width="600" height="200" />
+<img src="https://i.imgur.com/Qg2hWB9.png" width="600" height="100" />
+<img src="https://i.imgur.com/GbF1Tnv.png" width="600" height="100" />
 
 ## Bugs
 
